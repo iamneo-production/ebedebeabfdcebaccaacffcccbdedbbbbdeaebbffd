@@ -15,7 +15,7 @@ describe('Test Destructuring', () => {
         ram : '4GB'
     }
 
-    test('testcase51', () => {
+    test('testcase1', () => {
 
         delete userDetails.userName;
 
@@ -24,7 +24,7 @@ describe('Test Destructuring', () => {
 
     })
 
-    test('testcase52', () => {
+    test('testcase2', () => {
 
         delete userDetails.userIp;
         userDetails.userName = 'Danny';
@@ -34,7 +34,7 @@ describe('Test Destructuring', () => {
 
     })
 
-    test('testcase53', () => {
+    test('testcase3', () => {
 
         let value = getTopThree([34, 56, 78, 32, 21, 66]);
         expect(value).toStrictEqual([34, 56, 78]);
@@ -48,4 +48,3 @@ describe('Test Destructuring', () => {
     })
 
 })
-
